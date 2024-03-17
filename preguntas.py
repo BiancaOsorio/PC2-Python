@@ -54,7 +54,7 @@ def ingresar_alumnos(num_alumnos):
 def mostrar_listado(alumnos):
     print('Listado de alumnos:' )
     for alumno in alumnos:
-        print(f'Alumno: {alumno['Alumno']}, Notas: {alumno['Notas']}')
+        print(f'Alumno:{alumno["Alumno"]}, Notas:{alumno["Notas"]}')
 
 num_alumnos = int(input('Ingrese el número de alumnos:' ))
 alumnos = ingresar_alumnos(num_alumnos)
